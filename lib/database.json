@@ -1,12 +1,100 @@
 {
   "sticker": {},
   "database": {},
-   "game": {},
+  "game": {},
   "others": {
     "vote": []
   },
   "users": {
+    "2349150690169@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "447424742854@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "25768434909@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2348120496926@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "16076630350@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2349015970635@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2348141573223@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2349131826885@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2349130799864@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "18762263922@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2347069763306@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "18762182957@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2348069973596@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2347038808360@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2347049921391@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "25377240469@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2348064290607@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "2347045742291@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    }
   },
   "chats": {
+    "2349150690169@s.whatsapp.net": {
+      "mute": false,
+      "wame": false
+    },
+    "120363199177106632@g.us": {
+      "mute": false,
+      "wame": false
+    },
+    "120363221347237170@g.us": {
+      "mute": false,
+      "wame": false
+    },
+    "2347069763306@s.whatsapp.net": {
+      "mute": false,
+      "wame": false
+    }
   }
 }

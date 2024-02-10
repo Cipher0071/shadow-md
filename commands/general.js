@@ -161,7 +161,7 @@ cmd({
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
-*🕸Version:* 0.0.7
+*🕸Version:* 0.0.1
 *👤Owner:*  ${Config.ownername}
 *Powered by ${tlang().title}*
 `;
@@ -200,8 +200,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in Secktor*"
-str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\n these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+let str="*All available themes in Shadow*\n"
+str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. SHADOW\n\n these are the themes of shadow bot.\_Reply ${prefix}setvar THEME:ZEROTWO`
 return citel.reply(str)
     
 }

@@ -1,6 +1,6 @@
 {
-               "name": "shadow-md",
-               "version": "0.0.7",
+               "name": "shadow",
+               "version": "0.0.1",
                "description": "Multi device whatsapp bot by Cipher0071.",
                "main": "lib/client.js",
                "type": "commonjs",
