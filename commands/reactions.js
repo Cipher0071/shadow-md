@@ -8,12 +8,6 @@
  * @description : Shadow,A Multi-functional whatsapp bot.
  * @version 0.0.1
  **/
- 
- cmd({
-            pattern: "react",
-            category: "reaction",
-            use: '<quote|reply|tag>',
-        },
 
 const axios = require('axios')
 const { fetchJson,cmd, GIFBufferToVideoBuffer} = require('../lib')
