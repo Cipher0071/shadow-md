@@ -1,7 +1,7 @@
 const { tlang,shazam,prefix,cmd } = require('../lib')
 let yts = require("secktor-pack");
 cmd({
-        pattern: "find",
+        pattern: "shazam",
         category: "misc",
         desc: "Finds info about song"
     },
@@ -19,7 +19,7 @@ let anu = search.videos[0];
 *Album :* _${data.album}_                   
 *Release :* _${data.release_date}
 
-*wantto download the Song*
+*want to download the Song*
 ${prefix}ytmp3 ${anu.url}
 `
 
