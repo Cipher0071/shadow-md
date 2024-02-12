@@ -9,13 +9,6 @@
  * @version 0.0.1
  **/
 
- 
-  cmd({
-             pattern: "weeb-pack",
-             category: "weeb",
-             desc: "Searches Info about character."
-         },
-
  const axios = require('axios')
  const { Anime, Manga ,Character  } = require("@shineiichijo/marika");
  const { tlang, cmd, fetchJson, getBuffer, prefix } = require('../lib/')
