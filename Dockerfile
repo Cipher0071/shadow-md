@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM quay.io/sampandey001/secktor
 RUN git clone https://github.com/Primi373-creator/Secktor-Md /root/Cipher0071
 WORKDIR /root/Cipher0071/
 RUN npm install
