@@ -35,7 +35,7 @@
              });
              let texty = "";
              texty += `🏮*Name: ${chara.data[0].name}*\n`;
-             texty += `🌐 *Source:* _Secktor-Md bot_\n`;
+             texty += `🌐 *Source:* _shadow bot_\n`;
              texty += `📶 *URL:* ${chara.data[0].url}*\n\n`;
              texty += `*📑 Description*: ${chara.data[0].about}\n`;
              let gis = require("async-g-i-s");
@@ -61,7 +61,7 @@ async(Void, citel, text) => {
             });
             let texty = "";
             texty += `🏮*Name: ${chara.data[0].name}*\n`;
-            texty += `🌐 *Source:* _Secktor-Md bot_\n`;
+            texty += `🌐 *Source:* _shadow bot_\n`;
             texty += `📶 *URL:* ${chara.data[0].url}*\n\n`;
             texty += `*📑 Description*: ${chara.data[0].about}\n`;
             let gis = require("async-g-i-s");
