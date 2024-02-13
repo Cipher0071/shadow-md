@@ -1,4 +1,4 @@
-const { sck1,cmd, tlang, prefix,botpic,Config,sleep } = require('../lib')
+/*const { sck1,cmd, tlang, prefix,botpic,Config,sleep } = require('../lib')
 const util = require("util");
   cmd({
               pattern: "approve",
@@ -74,4 +74,4 @@ const util = require("util");
             return await Void.sendMessage(citel.chat, buttonMessaged, {quoted: citel}) 
   }
   })
-  
+  */
