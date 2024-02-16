@@ -5,10 +5,10 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349150690169";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://pobasuyi69:9UW3Yra6HZFUCT0B@cluster0.lum7yrw.mongodb.net/?retryWrites=true&w=majority"
-global.port= process.env.PORT || 5000
+global.port= process.env.PORT || 5000 //dont change this when deploying to back4app if you did change back4app too
 global.email = 'obasprom252@gmail.com'
-global.github = 'https://github.com/Cipher0071/Shadow'
-global.location = 'Sultanpur IN'
+global.github = 'https://github.com/Cipher0071/Shadow-bot'
+global.location = 'Nigeria'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '2349150690169'
 global.devs = '2349150690169';
@@ -45,7 +45,7 @@ module.exports = {
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.1' : process.env.VERSION,
   LANG: process.env.THEME|| 'SHADOW',
-  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
+  WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
 };
 
 
