@@ -589,8 +589,6 @@ cmd({
             return Void.sendMessage(citel.chat, playMessage, {
                 quoted: citel,
             });
-
-        let yts = require("secktor-pack");
             let search = await yts(text);
             let anu = search.videos[0];
             const getRandom = (ext) => {
