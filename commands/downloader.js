@@ -562,10 +562,7 @@ cmd({
     use: '<faded-Alan walker.>',
 },
 async (Void, citel, text) => {
-    if (!text) return citel.reply(`Use ${command} Back in Black`);
-   let infoYt = await ytdl.getInfo(anut.url);
-    let titleYt = infoYt.videoDetails.title;
-    citel.reply('*Downloading:* ' + titleYt);
+    if (!text) return citel.reply(`Use ${command} nf why`);
     
     let yts = require("secktor-pack");
     let search = await yts(text);
