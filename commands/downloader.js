@@ -563,6 +563,8 @@ cmd({
 },
 async (Void, citel, text) => {
     if (!text) return citel.reply(`Use ${command} Back in Black`);
+    let titleYt = infoYt.videoDetails.title;
+    citel.reply('*Downloading:* ' + titleYt);
     
     let yts = require("secktor-pack");
     let search = await yts(text);
@@ -606,7 +608,6 @@ async (Void, citel, text) => {
 
         let titleYt = infoYt.videoDetails.title;
         let randomName = getRandom(".mp3");
-        citel.reply('*Downloading:* ' + titleYt);
 
         const stream = ytdl(anut.url, {
             filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
@@ -632,7 +633,7 @@ async (Void, citel, text) => {
                     externalAdReply: {
                         title: titleYt,
                         body: citel.pushName,
-                        renderLargerThumbnail: true,
+                        renderLargerThumbnail: false,
                         thumbnailUrl: searchaud.all[0].thumbnail,
                         mediaUrl: text,
                         mediaType: 1,
