@@ -589,8 +589,8 @@ cmd({
             return Void.sendMessage(citel.chat, playMessage, {
                 quoted: citel,
             });
-            let search = await yts(text);
-            let anu = search.videos[0];
+            let searchaud = await yts(text);
+            let anu = searchaud.videos[0];
             const getRandom = (ext) => {
                 return `${Math.floor(Math.random() * 10000)}${ext}`;
             };
@@ -622,10 +622,10 @@ cmd({
                             title: titleYt,
                             body: citel.pushName,
                             renderLargerThumbnail: true,
-                            thumbnailUrl: search.all[0].thumbnail,
+                            thumbnailUrl: searchaud.all[0].thumbnail,
                             mediaUrl: text,
                             mediaType: 1,
-                            thumbnail: await getBuffer(search.all[0].thumbnail),
+                            thumbnail: await getBuffer(searchaud.all[0].thumbnail),
                             sourceUrl: text,
                         },
                     },
