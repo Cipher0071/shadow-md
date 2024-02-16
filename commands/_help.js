@@ -56,7 +56,7 @@ Secktor.cmd({
                 let total = await sck1.countDocuments()
                 let str = `
 ╭───────────㋰
-│╭──[ *` + fancytext(Config.botname.split(' ')[0], 58) + `* ]──㋰
+│╭──[ *` + tiny(Config.botname.split(' ')[0], 58) + `* ]──㋰
 ││ *User:-*  ${citel.pushName}
 ││ *Theme:-*  ${tlang().title}
 ││ *Prefix:-*  [ ${prefix} ]
@@ -74,11 +74,11 @@ Secktor.cmd({
                 {
                    str += `╭────❏ *${tiny(category)}* ❏\n` ;
                    if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────❏ *${tiny(category)}* ❏\n` ;      
-                        for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
+                        for (const plugins of cmds[category]) { str += `│ ${tiny(plugins,1)}\n` ; }
                         str += `╰━━━━━━━━━━━━━──⊷\n`  ;
                         break ;
                    }
-                   else { for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
+                   else { for (const plugins of cmds[category]) { str += `│ ${tiny(plugins,1)}\n` ; }
                          str += `╰━━━━━━━━━━━━━━──⊷\n`  ; 
                    }
   
@@ -103,7 +103,7 @@ Secktor.cmd({
             const { commands } = require('../lib');
             let str = `
 ╭───────────㋰
-│╭──[ *` + fancytext(Config.botname.split(' ')[0], 58) + `* ]──㋰
+│╭──[ *` + tiny(Config.botname.split(' ')[0], 58) + `* ]──㋰
 ││ *User:-*  ${citel.pushName}
 ││ *Theme:-*  ${tlang().title}
 ││ *Prefix:-*  [ ${prefix} ]
@@ -115,9 +115,9 @@ Secktor.cmd({
 for (let i = 0; i < commands.length; i++) 
 {
      if(commands[i].pattern==undefined) continue
-     str +=       `╭ ${i+1} *${fancytext(commands[i].pattern,1)}*\n` 
+     str +=       `╭ ${i+1} *${tiny(commands[i].pattern,1)}*\n` 
      if(commands[i].desc=undefined) commands[i].desc=""
-     str += `╰➛ ${fancytext(commands[i].desc,1)}\n`
+     str += `╰➛ ${tiny(commands[i].desc,1)}\n`
 }
             return await Void.sendMessage(citel.chat, { image: { url: THUMB_IMAGE }, caption: str })
         }
