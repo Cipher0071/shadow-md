@@ -627,11 +627,7 @@ async (Void, citel, text) => {
                 mimetype: 'audio/mpeg',
                 fileName: titleYt + ".mp3",
                 headerType: 4,
-                contextInfo: {
-                    externalAdReply: {
-                      
-                    },
-                },
+                
             };
             await Void.sendMessage(citel.chat, buttonMessage, { quoted: citel });
             fs.unlinkSync(`./${randomName}`);
