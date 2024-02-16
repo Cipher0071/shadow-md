@@ -590,16 +590,16 @@ cmd({
                 quoted: citel,
             });
             let searchaud = await yts(text);
-            let anu = searchaud.videos[0];
+            let anut = searchaud.videos[0];
             const getRandom = (ext) => {
                 return `${Math.floor(Math.random() * 10000)}${ext}`;
             };
-            let infoYt = await ytdl.getInfo(anu.url);
+            let infoYt = await ytdl.getInfo(anut.url);
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
             citel.reply('*Downloadig:* '+titleYt)
-            const stream = ytdl(anu.url, {
+            const stream = ytdl(anut.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
                 .pipe(fs.createWriteStream(`./${randomName}`));
