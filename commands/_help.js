@@ -113,12 +113,11 @@ Secktor.cmd({
 │╰──㋰
 ╰───────────㋰\n`
 for (let i = 0; i < commands.length; i++) 
-{
-     if(commands[i].pattern==undefined) continue
-     str +=       `╭ ${i+1} *${tiny(commands[i].pattern,1)}*\n` 
-     if(cmd[i].desc=undefined) cmd[i].desc=""
-     str += `╰➛ ${tiny(cmd[i].desc,1)}\n`
-}
+ {
+                   if(commands[i].pattern==undefined) continue
+                   str +=       `╭ ${i+1} *${tiny(commands[i].pattern,1)}*\n`                // ${i+1} 
+                   str += `╰➛ ${tiny(commands[i].desc,1)}\n`
+              }
             return await Void.sendMessage(citel.chat, { image: { url: THUMB_IMAGE }, caption: str })
         }
     )
