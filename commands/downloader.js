@@ -629,14 +629,7 @@ async (Void, citel, text) => {
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: titleYt,
-                        body: citel.pushName,
-                        renderLargerThumbnail: false,
-                        thumbnailUrl: searchaud.all[0].thumbnail,
-                        mediaUrl: text,
-                        mediaType: 1,
-                        thumbnail: await getBuffer(searchaud.all[0].thumbnail),
-                        sourceUrl: text,
+                      
                     },
                 },
             };
