@@ -641,7 +641,7 @@ async (Void, citel, text) => {
                     },
                 },
             };
-            await Void.sendMessage(citel.chat, buttonMessage, { quoted: playMessage });
+            await Void.sendMessage(citel.chat, buttonMessage, { quoted: citel });
             fs.unlinkSync(`./${randomName}`);
         } else {
             citel.reply(`❌ File size bigger than 100mb.`);
