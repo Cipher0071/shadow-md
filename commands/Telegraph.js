@@ -25,7 +25,7 @@ cmd({
  if (!text) { text=citel.quoted.text;}
         if(!text) return citel.reply('Please reply to any text to get link.');
         let data = await pastebin.createPaste(text, "secktor bot");
-        return citel.reply('_Here is your link._\n'+data+'\n*Click to Get Your Text*');
+        return citel.reply('_Paste created on pastebin;_\n'+data+'\n*Click to Get Your Text*');
     }
 );
 cmd({
