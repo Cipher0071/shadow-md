@@ -10,11 +10,9 @@
  * @version 0.0.6
  **/
 //---------------------------------------------------------------------------
-//https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Shadow+Bot&author_name=Cipher0071&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true
 const { cmd } = require('../lib');
 const util = require('util');
 const axios = require('axios');
-
 cmd({
     pattern: "paste",
     desc: "create paste of text.",
@@ -22,8 +20,9 @@ cmd({
     filename: __filename,
 },
     async (Void, citel, text) => {
-        let y = citel.quoted ? citel.quoted.text;
-     if (!citel.quoted && citel.quoted.text ) {
+        let y = citel.quoted ? citel.quoted.text : null;
+        
+        if (!y) {
             return citel.reply("Please reply to a message to create a paste.");
         }
 
