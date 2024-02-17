@@ -208,7 +208,7 @@ cmd({
             use: '<text|image name>',
         },
         async(Void, citel, text) => {
-            if (!text) return reply("What picture are you looking for?") && Void.sendMessage(citel.chat, {
+            if (!text) return citel.reply("What picture are you looking for?") && Void.sendMessage(citel.chat, {
                 react: {
                     text: '❌',
                     key: citel.key
