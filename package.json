@@ -19,6 +19,7 @@
                        "cheerio": "^1.0.0-rc.10",
                        "crypto-js":"latest",
                        "chalk": "^4.1.2",
+                       "chess.js": "*",
                        "@hapi/boom": "^9.1.4",
                        "child_process": "^1.0.2",
                        "discord-mongoose-economy": "^1.2.0",
@@ -57,7 +58,6 @@
                        "secktor-pack": "latest",
                        "ytdl-secktor": "latest",
                        "pastebin-js": "latest",
-                       "similarity": "^1.2.1",
                        "fb-info-video":"^1.0.2",
                        "wa-sticker-formatter": "^4.3.2"
                       },
