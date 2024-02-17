@@ -32,7 +32,7 @@ cmd({
         const regex = new RegExp(`^${prefix}\\s*`, 'i');
         a = a.trim().replace(regex, "");
 
-        let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Shadow+Bot&author_name=Cipher0071&content=${encodeURIComponent(a)}&return_content=true`);
+        let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Shadow+Bot&author_name=Cipher0071&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
         return citel.reply(`*Paste created on telegraph*\nName:-${util.format(data.result.title)} \nUrl:- ${util.format(data.result.url)}`)
     }
 );
