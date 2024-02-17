@@ -57,7 +57,7 @@ const { sck1,
 
 cmd(
   {
-    pattern: 'ladybug ?(.*)',
+    pattern: 'ladybug',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: ' reply to text with <prefix> <cmd>',
@@ -65,17 +65,17 @@ cmd(
             filename: __filename
   },
   async(Void, citel, text) => {
-    const textmd = text[1] || (citel.reply_message && citel.reply_message.text) || "Cipher";
+ if (isNaN(text.split(" ")[0]) || !text) {
     const fancyText = ladybug(text);
 
     return await citel.reply(fancyText);
-  }
+  }}
 );
 
 // Command for runes
 cmd(
   {
-    pattern: 'runes ?(.*)',
+    pattern: 'runes',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -93,7 +93,7 @@ cmd(
 // Command for serif_B
 cmd(
   {
-    pattern: 'serif_B ?(.*)',
+    pattern: 'serif_B',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -111,7 +111,7 @@ cmd(
 // Command for serif_BI
 cmd(
   {
-    pattern: 'serif_BI ?(.*)',
+    pattern: 'serif_BI',
     desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -129,7 +129,7 @@ cmd(
 // Command for serif_I
 cmd(
   {
-    pattern: 'serif_I ?(.*)',
+    pattern: 'serif_I',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -146,7 +146,7 @@ cmd(
 
 cmd(
   {
-    pattern: 'flip ?(.*)',
+    pattern: 'flip',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -164,7 +164,7 @@ cmd(
 // Command for tiny
 cmd(
   {
-    pattern: 'tiny ?(.*)',
+    pattern: 'tiny',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -182,7 +182,7 @@ cmd(
 // Command for createMap
 cmd(
   {
-    pattern: 'createMap ?(.*)',
+    pattern: 'createMap',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -200,7 +200,7 @@ cmd(
 // Command for manga
 cmd(
   {
-    pattern: 'manga ?(.*)',
+    pattern: 'manga',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -217,7 +217,7 @@ cmd(
 
 cmd(
   {
-    pattern: 'creepify ?(.*)',
+    pattern: 'creepify',
     desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -235,7 +235,7 @@ cmd(
 // Command for bubbles
 cmd(
   {
-    pattern: 'bubbles ?(.*)',
+    pattern: 'bubbles',
     desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -253,7 +253,7 @@ cmd(
 // Command for mirror
 cmd(
   {
-    pattern: 'mirror ?(.*)',
+    pattern: 'mirror',
    desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -271,7 +271,7 @@ cmd(
 // Command for squares
 cmd(
   {
-    pattern: 'squares ?(.*)',
+    pattern: 'squares',
     desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -289,7 +289,7 @@ cmd(
 // Command for roundsquares
 cmd(
   {
-    pattern: 'roundsquares ?(.*)',
+    pattern: 'roundsquares',
    desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -306,7 +306,7 @@ cmd(
 
 cmd(
   {
-    pattern: 'doubleUnderline ?(.*)',
+    pattern: 'doubleUnderline',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -324,7 +324,7 @@ cmd(
 // Command for slashThrough
 cmd(
   {
-    pattern: 'slashThrough ?(.*)',
+    pattern: 'slashThrough',
     desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -342,7 +342,7 @@ cmd(
 // Command for heartsBetween
 cmd(
   {
-    pattern: 'heartsBetween ?(.*)',
+    pattern: 'heartsBetween',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -360,7 +360,7 @@ cmd(
 // Command for arrowBelow
 cmd(
   {
-    pattern: 'arrowBelow ?(.*)',
+    pattern: 'arrowBelow',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -378,7 +378,7 @@ cmd(
 // Command for crossAboveBelow
 cmd(
   {
-    pattern: 'crossAboveBelow ?(.*)',
+    pattern: 'crossAboveBelow',
     desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -395,7 +395,7 @@ cmd(
 
 cmd(
   {
-    pattern: 'typewriter ?(.*)',
+    pattern: 'typewriter',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -413,7 +413,7 @@ cmd(
 // Command for analucia
 cmd(
   {
-    pattern: 'analucia ?(.*)',
+    pattern: 'analucia',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -431,7 +431,7 @@ cmd(
 // Command for tildeStrikeThrough
 cmd(
   {
-    pattern: 'tildeStrikeThrough ?(.*)',
+    pattern: 'tildeStrikeThrough',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -449,7 +449,7 @@ cmd(
 // Command for underline
 cmd(
   {
-    pattern: 'underline ?(.*)',
+    pattern: 'underline',
      desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -467,7 +467,7 @@ cmd(
 
 cmd(
   {
-    pattern: 'vaporwave ?(.*)',
+    pattern: 'vaporwave',
    desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -484,7 +484,7 @@ cmd(
 
 cmd(
   {
-    pattern: 'strikeThrough ?(.*)',
+    pattern: 'strikeThrough',
    desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
@@ -502,7 +502,7 @@ cmd(
 // Command for wingdings
 cmd(
   {
-    pattern: 'wingdings ?(.*)',
+    pattern: 'wingdings',
     desc: "Makes stylish/fancy given text",
             category: "Textmaker",
             use: 'reply to text with <prefix> <cmd>',
