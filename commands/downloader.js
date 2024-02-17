@@ -21,6 +21,7 @@ cmd({
             pattern: "tts",
             desc: "text to speech.",
             category: "downloader",
+            react: "🗣️",
             filename: __filename,
             use: '<Hii,this is Shadow>',
         },
@@ -50,6 +51,7 @@ cmd({
         desc: "Gives various info of query from youtube..",
         category: "downloader",
         filename: __filename,
+        react: "📚",
         use: '<yt search text>',
     },
     async(Void, citel, text) => {
@@ -83,6 +85,7 @@ cmd({
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
+            react: "📹",
             use: '<faded-Alan Walker>',
         },
         async(Void, citel, text) => {
@@ -142,6 +145,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "ytinfo",
+            react: "ℹ️",
             alias: ["yti"],
             desc: "Sends  descriptive info about the query(of youtube video/audio).",
             category: "downloader",
@@ -183,6 +187,7 @@ cmd({
             pattern: "ringtone",
             desc: "Downloads ringtone.",
             category: "downloader",
+            react: "🎵",
             filename: __filename,
             use: '<ringtone name>',
         },
@@ -197,6 +202,7 @@ cmd({
 cmd({
             pattern: "pint",
             desc: "Downloads image from pinterest.",
+            react: "📌",
             category: "downloader",
             filename: __filename,
             use: '<text|image name>',
@@ -241,6 +247,7 @@ cmd({
             pattern: "mediafire",
             desc: "Downloads zip from Mediafire.",
             category: "downloader",
+            react: "📥",
             filename: __filename,
             use: '<url of mediafire>',
         },
@@ -272,6 +279,7 @@ cmd({
 cmd({
             pattern: "audio",
             alias :['song'],
+            react: "🎵",
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
@@ -337,6 +345,7 @@ cmd({
             pattern: "ytmp4",
             desc: "Downloads video from youtube.",
             category: "downloader",
+            react: "🎥",
             filename: __filename,
             use: '<yt video url>',
         },
@@ -405,6 +414,7 @@ cmd({
         pattern: "ytmp3",
         desc: "Downloads audio by yt link.",
         category: "downloader",
+        react: "🎶",
         use: '<yt video url>',
     },
     async(Void, citel, text) => {
@@ -482,6 +492,7 @@ cmd({
         desc: "Downloads audio by yt link as document.",
         category: "downloader",
         use: '<ytdoc video url>',
+        react: "🔍",
     },
     async(Void, citel, text) => {
         const getRandom = (ext) => {
@@ -558,6 +569,7 @@ cmd({
     pattern: "play",
     desc: "Sends descriptive info about the query (of YouTube audio and the audio itself).",
     category: "downloader",
+    react: "🎶",
     filename: __filename,
     use: '<faded-Alan walker.>',
 },
