@@ -10,7 +10,8 @@
  **/
 //-----------------------------------------------------------------------------------
 const Config = require('../config')
-let {  cmd, lang , texttologo, prefix } = require("../lib");
+const texttologo = require("../lib/texttologo");
+const {  cmd, lang , prefix } = require("../lib");
 //-----------------------------------------------------------------------------------
 cmd({ pattern: "slice", category: "logo", desc: "Some text to image feature with various styles.",filename: __filename, }, async(Void, citel, text) => {
         if (!text) return citel.reply(`*_Example : ${prefix}slice  Void_*`);
