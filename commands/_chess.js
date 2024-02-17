@@ -1,4 +1,4 @@
-const { Chess } = require ('chess.js');
+const Chess = (await import('chess.js')).default;
 const { tlnag,cmd,getBuffer,prefix,Config} = require('../lib')
 
 cmd({
