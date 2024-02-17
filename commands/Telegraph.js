@@ -14,7 +14,6 @@
 const { cmd } = require('../lib');
 const util = require('util');
 const axios = require('axios');
-const config = require('../config.js');
 
 cmd({
     pattern: "paste",
@@ -23,14 +22,10 @@ cmd({
     filename: __filename,
 },
     async (Void, citel, text) => {
-        let a = citel.quoted ? citel.quoted.text : citel.text;
-        
-        // Use the prefix from the configuration file
-        const prefix = config.PREFIX;
-        
-        // Trim the text and remove the prefix
-        const regex = new RegExp(`^${prefix}\\s*`, 'i');
-       let y = a.trim().replace(regex, "");
+        let y = citel.quoted ? citel.quoted.text;
+     if (!citel.quoted && citel.quoted.text ) {
+            return citel.reply("Please reply to a message to create a paste.");
+        }
 
         let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Shadow+Bot&author_name=Cipher0071&content=[%7B"tag":"p","children":["${y.replace(/ /g,'+')}"]%7D]&return_content=true`);
         return citel.reply(`*Paste created on telegraph*\nName:-${util.format(data.result.title)} \nUrl:- ${util.format(data.result.url)}`)
