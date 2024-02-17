@@ -201,6 +201,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "pint",
+             alias: ["pinterest"],
             desc: "Downloads image from pinterest.",
             react: "📌",
             category: "downloader",
@@ -221,19 +222,9 @@ cmd({
                     image: {
                         url: result
                     },
-                    caption: ` `,
+                    caption: `Here it is✨`,
                     footer: tlang().footer,
                     headerType: 4,
-                    contextInfo: {
-                        externalAdReply: {
-                            title: `Here it is✨`,
-                            body: `${Config.ownername}`,
-                            thumbnail: log0,
-                            mediaType: 2,
-                            mediaUrl: ``,
-                            sourceUrl: ``
-                        }
-                    }
                 }
                 return Void.sendMessage(citel.chat, buttonMessage, {
                     quoted: citel
