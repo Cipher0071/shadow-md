@@ -1,96 +1,163 @@
-  <p align="center">  
-  <a href="https://secktoruserbot.onrender.com/">
-    <img alt="secktor docs" height="300" src="https://secktoruserbot.onrender.com/main.jpg">
-    <h1 align="center">Secktor MD Whatsapp bot</h1>
+ <p align="center">  
+  <a href="https://github.com/Cipher0071">
+    <img alt="Cipher" height="300" src="https://i.pinimg.com/originals/51/a5/88/51a58806748ca1ee98507c287f9f8682.jpg">
+    <h1 align="center">shadow-md</h1>
   </a>
 </p>
-   
+<p align="center"> 
+<img src="https://komarev.com/ghpvc/?username=Cipher0071&color=brightgreen" />
+<p/>
 <p align="center">
-
-  <a aria-label="Join our chats" href="https://www.youtube.com/@YourPenPal" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
- 
-  <a aria-label="Secktor is free to use" href="https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE" target="_blank">
-    <img alt="License: GPL-3" src="https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/" target="_blank" />
-  </a>
+<a href="https://github.com/Cipher0071"><img title="Author" src="https://img.shields.io/badge/Shadow Bot-black?style=for-the-badge&logo=whatsApp"></a>
+<p/>
+<p align="center">
+<a href="https://github.com/Cipher0071?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Cipher0071?label=Followers&style=social"></a>
+<a href="https://github.com/Cipher0071/shadow-md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Cipher0071/shadow-md?&style=social"></a>
+<a href="https://github.com/Cipher0071/shadow-md/fork"><img title="Fork" src="https://img.shields.io/github/forks/Cipher0071/shadow-md?style=social"></a>
+<a href="https://github.com/Cipher0071/shadow-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Cipher0071/shadow-md?label=Watching&style=social"></a>
 </p>
 
- 
----
-
-<p align="center"><img src="https://profile-counter.glitch.me/{SamPandey001}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
-
-  <p align="center"> Introducing Secktor,Secktor is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
- 
- ***<p align="center"> Support us by subscribing our channel </p>***
- 
-   <p align="center">  
-  <a href="https://www.youtube.com/watch?v=k-DOQiLNuig">
-    <img alt="secktor docs" height="300" src="https://t3.ftcdn.net/jpg/03/00/38/90/360_F_300389025_b5hgHpjDprTySl8loTqJRMipySb1rO0I.jpg">
-    <h1 align="center">Tap on above Image</h1>
-  </a>
-</p>
- 
- 
-- Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
-## Deployment Methods
----
-1. ***Get [SESSION-ID](https://secktorub-b34f1c3c60d3.herokuapp.com/id) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
-2.  ***Get a Mongodb uri from [Mongodb](https://github.com/SamPandey001/Secktor-Md/wiki/Mongodb-URI) | [Tutorial](https://www.youtube.com/watch?v=WWrpBCBlyuo).***
 
 
-***Free Mongodb URI,LOL***
+### FORK THIS REPO
+
+- Must Fork This Repo Before Deployment !
+   <br> 
+<a href="https://github.com/Cipher0071/shadow-md/fork"><img title="FORK" src="https://img.shields.io/badge/FORK-h?color=black&style=for-the-badge&logo=stackshare"></a>
+
+
+### SCAN QR
+- Scan the QR and get your creds.json then upload to lib/auth_info_baileys folder
+   <br>
+<a href='https://h-6g6q.onrender.com/' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
+***
+### Information
+- Change owner number in [Config](https://github.com/Cipher0071/shadow-md/blob/main/config.js#L6)
+- You can downgrade to the latest version of baileys by editing the package.json [HERE](https://github.com/Cipher0071/shadow-md/blob/main/package.json#L42)
+
+### support group
+In case of support or any issues you can come here
+
+[![WhatsApp](https://img.shields.io/badge/Shadow-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FCfSLTySyqz1c7YPJD2KSm) 
+
+***
+
+#### DEPLOY TO HEROKU 
+
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://heroku.com' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://heroku.com/deploy?template=https://github.com/Cipher0071/shadow-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+
+#### Heroku Buildpack
+| BuildPack | LINK |
+|--------|--------|
+| **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+
+#### DEPLOY TO REPLIT 
+
+1. If You don't have a account in Replit. Create a account.
+    <br>
+<a href='https://www.replit.com/' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=replit'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://repl.it/github/Cipher0071/shadow-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
+3. Then head to uptime robot to create a monitor or any other cron job service provider to keep service alive
+
+#### DEPLOY ON RAILWAY
+
+1. If You don't have a account in Railway. Create a account.
+    <br>
+<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+
+
+
+#### DEPLOY TO KOYEB 
+
+1. If You don't have a account in koyeb. Create a account.
+    <br>
+<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb'/></a>
+
+2. Get [Koyeb api key](https://app.koyeb.com/account/api)
+
+3. Now Deploy
+    <br>
+<a href='https://app.koyeb.com/apps/new/import-project' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+
+#### DEPLOY ON MOGENIUS
+
+1. If You don't have a account in Replit. Create a account.
+    <br>
+<a href='https://mogenius.com' target="_blank"><img alt='mogenius' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=genius'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
+
+#### DEPLOY ON BACK4APP
+
+1. If You don't have a account in Back4app. Create a account.
+    <br>
+<a href='https://www.back4app.com/signup?' target="_blank"><img alt='back4app' src='https://img.shields.io/badge/Back4App-000000?style=for-the-badge&logo=back4app&logoColor=white&labelColor=000000&color=000000'/></a>
+
+2. Now Deploy
+    <br>
+<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/Back4App-000000?style=for-the-badge&logo=back4app&logoColor=white&labelColor=000000&color=000000'/></a>
+3. Then head to uptime robot to create a monitor or any other cron job service provider to keep service alive
+
+### DEPLOY ON TERMUX
+1. 
+```sh
+$ pkg upgrade -y && pkg update -y
+$ pkg install git -y
+$ pkg install nodejs -y
+$ pkg install ffmpeg -y
+$ pkg install imagemagick -y
+$ git clone https://github.com/Cipher0071/shadow-md
+$ cd shadow-md
+$ npm i 
+$ npm start
 ```
-mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
-```
-3.  ***Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)***
-## Heroku Deployment Method
-4.  ***Deploy on [Heroku](https://secktorub-b34f1c3c60d3.herokuapp.com//heroku)***
-## Koyeb Deployment Method
-5. ***[Deploy on Koyeb](https://secktorub-b34f1c3c60d3.herokuapp.com/koyeb) and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
+2. Wait for the bot to start...
+3. Scan the QR code from the second device. (go to whatsapp > Linked Devices > Link a device)
+---------
 
-6. ***Also Deploy on [Replit]( https://repl.it/github/SamPandey001/Secktor-Md)***
-
-If ***RUN*** Doesn't work, paste these commands in repl shell
-
-```
-yarn
-npm i pm2 -g && pm2 start lib/client.js
-```
-Copy the JSON down and paste in repl then fill the vars
-
-```
-{
-  "SESSION_ID": "ID-Here",
-  "OWNER_NUMBER": "91xxxxxxxxxx",
-  "OWNER_NAME": "EREN JEAGER",
-  "OPENAI_API_KEY": "null",
-  "MONGODB_URI": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority",
-  "PACK_INFO": "Sam;Pandey",
-  "PREFIX": "."
+<h2 align="center">  Reminder
+</h2>
    
-}
-```
+## 
+- This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
+- I am not responsible for banning your account.
+- Use at your own risk by keeping this warning in mind.
 
-7.  ***[Deploy on Railway](https://secktorub-b34f1c3c60d3.herokuapp.com/railway)***
 
-8. ***[Deploy on MOGENIOUS](https://github.com/SamPandey001/Secktor-Md/wiki/Deploy-on-MOGENIOUS)***
-  
-9. ***Deploy in [Linux](https://github.com/SamPandey001/Secktor-Deploy#deploy-in-any-shell-including-termux)***
+<h2 align="center">  NOTICE
+</h2>
+   
+## 
+- Not For Sale
+- If A plugin's code is obfuscated , You don't have permission to edit it in any form 
+- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
+- Have A Good Day Ahead
 
-10. if you get error in doing above try, [Deploy on VPS or PC.](https://github.com/SamPandey001/Secktor-Md/blob/main/deploy-on-vps.md)
----
-11. More info about [Secktor](https://secktorub-b34f1c3c60d3.herokuapp.com/).
-12. Deploy tutorial [Youtube Video](https://secktorub-b34f1c3c60d3.herokuapp.com/youtube).
+#### Special Thanks To
 
-13. SUPPORT GROUP: <a href="https://chat.whatsapp.com/DG86OkvmerHKHJjkE5X2Wv"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
+<details close>
+<summary>Read More</summary>
 
-- Star ⭐ repo if you like Secktor.
-### Thanks To
+<br>
 
-- [Yusuf Usta](https://github.com/yusufusta) for Ideas
+* [`GURU`](https://github.com/Guru322)
+* [`Primi373-creator`](https://github.com/Primi373-creator)
 
-## License
-
-The Secktor is made available under the [GPL-3 license](https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE). 
+ </details>
