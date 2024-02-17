@@ -1,12 +1,12 @@
 /**
- Copyright (C) 2022.
+ Copyright (C) 2024.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ * @project_name : Shadow-Md
+ * @author : Cipher0071 <https://github.com/Cipher0071>
+ * @description : Shadow,A Multi-functional whatsapp bot.
+ * @version 0.0.1
  **/
 
 const { tlang, botpic, cmd, prefix, runtime, Config , sleep } = require('../lib')
@@ -19,7 +19,7 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,Secktor>',
+    use: '<Hii,Shadow>',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -114,14 +114,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/repos/Cipher0071/shadow-md')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* citel-x.herokuapp.com/repo
-*Group:* citel-x.herokuapp.com/support
+*🍁 Repo:* [ click here](https://github.com/Cipher0071/shadow-md)
+*Group:* [join here](https://chat.whatsapp.com/FCfSLTySyqz1c7YPJD2KSm)
 *Deploy Your Own:*-
-citel-x.herokuapp.com`
+[ click here](https://github.com/Cipher0071/shadow-md)`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -129,7 +129,7 @@ citel-x.herokuapp.com`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "Shadow-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -200,8 +200,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in Shadow*\n"
-str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. SHADOW\n\n these are the themes of shadow bot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+let str="*All available themes in Shadow-md*\n"
+str+=`1. SHADOW\n\n these are the themes of shadow-md currently available more comming soon`
 return citel.reply(str)
     
 }
