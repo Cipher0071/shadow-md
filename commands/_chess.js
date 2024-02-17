@@ -5,7 +5,7 @@ cmd({
   pattern: 'chess',
   desc: 'chess game',
   category: 'game',
-  use: '['chess [from to]', 'chess delete', 'chess join', 'chess start']',
+  use: "{'chess [from to]', 'chess delete', 'chess join', 'chess start'}",
 }, 
 
  async (Void ,citel ,text) => {
