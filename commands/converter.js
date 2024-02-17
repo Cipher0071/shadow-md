@@ -157,33 +157,10 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
-            pattern: "fancy",
-            desc: "Makes stylish/fancy given text",
-            category: "converter",
-            use: '56 Secktor',
-            react: "✅",
-            filename: __filename
-        },
-        async(Void, citel, text) => {
-            if (isNaN(text.split(" ")[0]) || !text) {
-                let text = tiny(
-                    "Fancy text generator\n\nExample: .fancy 32 Secktor\n\n"
-                );
-                listall("Secktor Bot").forEach((txt, num) => {
-                    text += `${(num += 1)} ${txt}\n`;
-                });
-                return await citel.reply(text);
-            }
 
-            let fancytextt = await fancytext(`${text.slice(2)}`, text.split(" ")[0])
-            citel.reply(fancytextt)
-
-        }
-    )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "tiny",
+            pattern: "tinyurl",
             desc: "Makes url tiny.",
             category: "converter",
             use: '<url>',
