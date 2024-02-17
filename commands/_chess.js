@@ -157,5 +157,4 @@ Type *chess join* to join a waiting chess game.
     `, m);
   }
   return citel.reply(citel.chat, '❓ Invalid command. Use *"chess help"* to see the available commands.', m);
-};
-\
+});
