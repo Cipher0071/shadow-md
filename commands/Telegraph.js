@@ -17,7 +17,7 @@ pastebin = new PastebinAPI("EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL");
 cmd({
         pattern: "pastebin",
         desc: "pastes quoted text on pastebin",
-        category: "converter",
+        category: "extra",
         filename: __filename,
     },
     async(Void, citel,text) => {
