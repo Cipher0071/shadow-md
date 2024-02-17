@@ -35,7 +35,6 @@ cmd({
         }
 
     } catch (error) {
-        console.error('Error in Instagram download command:', error);
         return citel.reply('Error encountered. Please try again later.\n or try with another link');
     }
 }
