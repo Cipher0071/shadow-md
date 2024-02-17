@@ -37,6 +37,5 @@ cmd({
     } catch (error) {
         return citel.reply('Error encountered. Please try again later.\n or try with another link');
     }
-}
 
     });
