@@ -57,7 +57,7 @@ const { sck1,
 
 cmd(
   {
-    pattern: "/^\ladybug (.+)$/i",
+    pattern: "ladybug",
     desc: "Makes stylish/fancy given text",
     category: "Textmaker",
     use: ' reply to text with <prefix> <cmd>',
