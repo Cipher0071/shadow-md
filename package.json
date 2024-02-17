@@ -11,7 +11,7 @@
                 },
                "author": "Cipher0071",
               "dependencies": {
-                       "@whiskeysockets/baileys": "^6.4.1", 
+                       "@whiskeysockets/baileys": "^6.6.0", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",
                        "anime-character-random": "latest",
