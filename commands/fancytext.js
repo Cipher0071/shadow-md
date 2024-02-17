@@ -57,21 +57,22 @@ const { sck1,
 
 cmd(
   {
-    pattern: 'ladybug',
-     desc: "Makes stylish/fancy given text",
-            category: "Textmaker",
-            use: ' reply to text with <prefix> <cmd>',
-            react: "✅",
-            filename: __filename
+    pattern: /^\.ladybug (.+)$/i,
+    desc: "Makes stylish/fancy given text",
+    category: "Textmaker",
+    use: ' reply to text with <prefix> <cmd>',
+    react: "✅",
+    filename: __filename
   },
-  async(Void, citel, text) => {
- if (isNaN(text.split(" ")[0]) || !text) {
-    const fancyText = ladybug(text);
+  async (Void, citel, match) => {
+    const textToConvert = match[1];
 
-    return await citel.reply(fancyText);
-  }}
+    if (isNaN(textToConvert.split(" ")[0]) || !textToConvert) {
+      const fancyText = await ladybug(textToConvert);
+      return await citel.reply(fancyText);
+    }
+  }
 );
-
 // Command for runes
 cmd(
   {
