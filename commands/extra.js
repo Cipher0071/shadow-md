@@ -6,8 +6,9 @@ const Shadow = require('../lib/commands');
 Shadow.cmd({
     pattern: "animequote",
     desc: "Sends random anime quotes in chat.",
-    kingclass: "anime",
-    kingpath: __filename,
+    category: "weeb",
+    filename: __filename,
+    react: "😄",
 },
     async (Void, citel, text) => {
         try {
