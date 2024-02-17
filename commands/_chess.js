@@ -1,4 +1,4 @@
-const Chess = require('chess.js').Ches
+/*const Chess = require('chess.js').Ches
 const { tlnag,cmd,getBuffer,prefix,Config} = require('../lib')
 
 cmd({
@@ -158,3 +158,4 @@ Type *chess join* to join a waiting chess game.
   }
   return citel.reply(citel.chat, '❓ Invalid command. Use *"chess help"* to see the available commands.', m);
 });
+*/
