@@ -114,7 +114,7 @@ cmd({
             const match = text.match(regex);
             if (match) {
             let text1 = match[1];
-            let text2 = match[2];
+            let text2 = match[2];}
             if(!text2 || !text1) return await citel.reply("*Uhh Please Provide text. Example: ${prefix}glitch text1;text2*");
             let anu = await maker.textpro('https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html', [text1, text2] );
             Void.sendMessage(citel.chat, { image: {url: anu },caption: `Made by ${tlang().title},For my ${tlang().greet}`}, { quoted: citel });
