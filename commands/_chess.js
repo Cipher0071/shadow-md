@@ -1,4 +1,4 @@
-const Chess = require('chess.js').default;
+const Chess = require('chess.js').Ches
 const { tlnag,cmd,getBuffer,prefix,Config} = require('../lib')
 
 cmd({
