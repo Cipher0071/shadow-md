@@ -22,9 +22,12 @@ cmd({
         filename: __filename,
     },
     async(Void, citel,text) => {
- if (!text) { text=citel.quoted.text;}
-        if(!text) return citel.reply('Please reply to any text to get link.');
-        let data = await pastebin.createPaste(text, "secktor bot");
+let x = citel.quoted ? citel.quoted.text : null;
+        
+        if (!x) {
+            return citel.reply("Please reply to a message to create a paste.");
+        }
+        let data = await pastebin.createPaste(x, "secktor bot");
         return citel.reply('_Paste created on pastebin;_\n'+data+'\n*Click to Get Your Text*');
     }
 );
